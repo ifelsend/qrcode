@@ -1,0 +1,20 @@
+{
+    "name": "QRCode URL(当前页面地址二维码生成器)",
+    "version": "1.0.0",
+    "manifest_version": 2,
+
+    "description": "生成当前页面地址的二维码,方便手机查看",
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "offline_enabled": true,
+    "permissions": [
+        "tabs"
+    ]
+}
